@@ -77,8 +77,8 @@ def run_machine(drink_name):
         if is_transaction_successful(total, drink_item["cost"]):
             make_coffee(drink_name)
             return True
+            
 if __name__ == "__main__":
-
     flag = True
     while flag:
         choice = input("What would you like?(espresso/latte/cappuccino):")
